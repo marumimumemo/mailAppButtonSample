@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A66682CE24484184002357F3 /* URLSchemeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66682CD24484184002357F3 /* URLSchemeHelper.swift */; };
 		A6CF88AD24484098005FFB64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CF88AC24484098005FFB64 /* AppDelegate.swift */; };
 		A6CF88AF24484098005FFB64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CF88AE24484098005FFB64 /* SceneDelegate.swift */; };
 		A6CF88B124484098005FFB64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CF88B024484098005FFB64 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A66682CD24484184002357F3 /* URLSchemeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSchemeHelper.swift; sourceTree = "<group>"; };
 		A6CF88A924484098005FFB64 /* mailAppButtonSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mailAppButtonSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6CF88AC24484098005FFB64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6CF88AE24484098005FFB64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				A6CF88AC24484098005FFB64 /* AppDelegate.swift */,
 				A6CF88AE24484098005FFB64 /* SceneDelegate.swift */,
 				A6CF88B024484098005FFB64 /* ViewController.swift */,
+				A66682CD24484184002357F3 /* URLSchemeHelper.swift */,
 				A6CF88B224484098005FFB64 /* Main.storyboard */,
 				A6CF88B524484099005FFB64 /* Assets.xcassets */,
 				A6CF88B724484099005FFB64 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A66682CE24484184002357F3 /* URLSchemeHelper.swift in Sources */,
 				A6CF88B124484098005FFB64 /* ViewController.swift in Sources */,
 				A6CF88AD24484098005FFB64 /* AppDelegate.swift in Sources */,
 				A6CF88AF24484098005FFB64 /* SceneDelegate.swift in Sources */,

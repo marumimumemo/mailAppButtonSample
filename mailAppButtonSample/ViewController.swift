@@ -12,9 +12,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func mailAppButtonTapped() {
+        let emailAddress = "abc@abc.co.jp"
+        URLSchemeHelper.showMailAppSelection(emailAddress: emailAddress, viewController: self)
+    }
 }
 
